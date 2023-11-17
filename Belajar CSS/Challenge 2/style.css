@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cf::before,
+.cf::after {
+  content: "";
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+}
+
+/* Kerjakan disini */
+
+/* 1. Buat style untuk class container */
+.container {
+  width: 620px;
+  margin: auto;
+  margin-top: 3em;
+  border: 4px solid black;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  font-size: 32px;
+}
+
+/* 2. Buat style untuk kotak */
+.kotak {
+  height: 185px;
+  width: 185px;
+  margin: 7px;
+  float: left;
+  border: 2px solid black;
+  line-height: 185px;
+}
+
+.kotak.kotak1 {
+  background-color: black;
+  color: white;
+}
+
+.kotak.kotak5 {
+  background-color: black;
+  color: white;
+}
+
+.kotak.kotak9 {
+  background-color: black;
+  color: white;
+}
+
+/* 3. (Opsional) Buat style warna untuk 9 kotak */

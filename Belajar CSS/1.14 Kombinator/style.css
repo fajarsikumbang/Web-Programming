@@ -1,0 +1,31 @@
+/* Selector turunan */
+
+div p {
+    background-color: yellow;
+}
+
+/* Child section */
+
+div>section {
+    background-color: green;
+}
+
+section>p {
+    background-color: pink;
+}
+
+
+
+div+p {
+    background-color: lightblue;
+}
+
+section+p {
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div~p {
+    background-color: coral;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            overflow: hidden;
+        }
+        .container {
+            font-size: 10px;
+            width: 40em;
+            height: 40em;
+            position: relative;
+        }
+        .sun {
+            position: absolute;
+            top: 15em;
+            right: 15em;
+            width: 10em;
+            height: 10em;
+            background-color: yellow;
+            border-radius: 50%;
+            box-shadow: 0 0 3em white;
+            animation: rise-sun 5s linear;
+        }
+        .earth, .moon {
+            position: absolute;
+            border-style: solid;
+            border-color: white transparent transparent transparent; 
+            border-width: 0.1em 0.1em 0 0;
+            border-radius: 50%;
+        }
+        .earth {
+            top: 5em;
+            left: 5em;
+            width: 30em;
+            height: 30em;
+            animation: orbit-earth 36.5s linear infinite;
+        }
+        .moon {
+            top: 0;
+            right: 0;
+            width: 8em;
+            height: 8em;
+            animation: orbit-moon 2.7s linear infinite;
+        }
+        .earth::before, .moon::before {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+        }
+        .earth::before {
+            top: 2.8em;
+            right: 2.8em;
+            width: 3em;
+            height: 3em;
+            background-color: aqua;
+        }
+        .moon::before {
+            top: 0.8em;
+            right: 0.2em;
+            width: 1.2em;
+            height: 1.2em;
+            background-color: silver;
+        }
+        .komet {
+            position: absolute;
+            top: 2em;
+            left: -3em;
+            width: 2em;
+            height: 1em;
+            background-color: #ff9900;
+            clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+            animation: orbit-komet 10s linear infinite, fall 2s 1s ease-in-out infinite alternate;
+        }
+        .meteor {
+            position: absolute;
+            top: -1em;
+            left: 2em;
+            width: 0.5em;
+            height: 0.5em;
+            background-color: #ff3300;
+            clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+            animation: fall-meteor 1s linear infinite alternate;
+        }
+        .ufo {
+            position: absolute;
+            top: 5em;
+            left: 5em;
+            width: 6em;
+            height: 1em;
+            background-color: silver;
+            border-radius: 50%;
+            animation: fly-ufo 5s linear infinite;
+        }
+        .explosion {
+            position: absolute;
+            top: 2.5em;
+            left: 2.5em;
+            width: 25em;
+            height: 25em;
+            background-color: #ff3300;
+            border-radius: 50%;
+            opacity: 0;
+            animation: explode 0.5s linear forwards;
+        }
+
+        .guardians {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .guardians img {
+            width: 5em;
+            margin: 0.5em;
+        }
+
+        @keyframes rise-sun {
+            from {
+                top: 20em;
+                opacity: 0;
+            }
+            to {
+                top: 15em;
+                opacity: 1;
+            }
+        }
+
+        @keyframes orbit-earth {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes orbit-moon {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes orbit-komet {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes fall {
+            0% {
+                top: 2em;
+                left: -3em;
+            }
+            100% {
+                top: 20em;
+                left: 30em;
+            }
+        }
+
+        @keyframes fall-meteor {
+            0% {
+                top: -1em;
+                left: 2em;
+            }
+            100% {
+                top: 20em;
+                left: 10em;
+            }
+        }
+
+        @keyframes fly-ufo {
+            0% {
+                left: 5em;
+            }
+            100% {
+                left: 35em;
+            }
+        }
+
+        @keyframes explode {
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes meteor-fall {
+            from {
+                top: -2em;
+                opacity: 1;
+            }
+            to {
+                top: 30em;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sun"></div>
+        <div class="earth">
+            <div class="moon"></div>
+        </div>
+        <div class="komet"></div>
+        <div class="ufo"></div>
+        <div class="explosion"></div>
+        <div class="guardians">
+            <img src="starlord.png" alt="Star-Lord">
+            <img src="rocket.png" alt="Rocket">
+            <img src="groot.png" alt="Groot">
+            <img src="gamora.png" alt="Gamora">
+            <img src="drax.png" alt="Drax">
+        </div>
+    </div>
+
+    <script>
+        function startExplosion() {
+            const explosion = document.querySelector('.explosion');
+            explosion.style.animation = 'explode 0.5s linear forwards';
+            setTimeout(() => {
+                explosion.style.animation = 'none';
+            }, 500);
+        }
+
+        function createMeteor() {
+            const meteor = document.createElement('div');
+            meteor.classList.add('meteor');
+            document.querySelector('.container').appendChild(meteor);
+
+            meteor.style.left = Math.random() * 40 + 'em'; // Random horizontal position
+            meteor.style.animation = 'meteor-fall 2s linear forwards';
+
+            setTimeout(() => {
+                meteor.remove();
+            }, 2000);
+        }
+
+        setInterval(startExplosion, 10000);
+        setInterval(createMeteor, 2000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    background: url("./BLK_Hero1.jpg") center/cover;
+    /* backdrop-filter: blur(2px); */
+    background-attachment: fixed;
+}
+
+/* Style untuk navbar dikerjain disini */
+header nav {
+    height: 64px;
+    padding: 15px;
+    background-color: #53538f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.8;
+}
+
+
+
+header nav .menu {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .menu li a {
+    text-decoration: none;
+    color: white;
+    transition: all 300ms linear;
+}
+
+header nav .menu li:hover a {
+    text-decoration: underline;
+    background-color: #ffa600;
+    border-radius: 30px;
+    transition: all 200ms ease;
+    padding: 15px 10px;
+}
+
+header nav .toggle {
+    display: none;
+}
+
+header nav .toggle input {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    opacity: 0;
+}
+
+header nav .toggle i {
+    font-size: 32px;
+    pointer-events: none;
+}
+
+/* Mode Tablet untuk navbar */
+@media screen and (max-width: 768px) {
+    header nav .menu {
+        position: absolute;
+        display: flex;
+        right: -350px;
+        height: 100%;
+        top: 63px;
+        padding: 20px 40px;
+        flex-direction: column;
+        background-color: #53538f;
+        transition: all 0.2s;
+        opacity: 0.8;
+    }
+
+    header nav .menu.open {
+        right: 0px;
+    }
+
+    header nav .toggle {
+        display: flex;
+    }
+}
+
+/* Mode HP untuk navbar */
+@media screen and (max-width: 576px) {
+    nav .navbar-menu {
+        /* display: none; */
+        background-color: #1d5b79;
+        opacity: 0;
+        padding-top: 40px;
+        position: absolute;
+        top: 0;
+        right: -550px;
+        width: 70%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 1;
+        transition: all 500ms ease;
+    }
+
+    nav .navbar-menu.open {
+        right: 0;
+        opacity: 1;
+    }
+
+    .navbar-toogle {
+        display: flex;
+        z-index: 2;
+    }
+}
+
+/* =================================================== */
+
+/* Style untuk Hero kerjain disini */
+header section .desc {
+    display: flex;
+    padding: 50px;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+header section .desc h1 {
+    text-align: center;
+    color: white;
+}
+
+header section .desc p {
+    color: white;
+}
+
+header section button {
+    display: block;
+    width: 220px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #ffa600;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #1d5b79;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Mode HP untuk Hero */
+@media screen and (max-width: 1120px) {
+    section {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .judul {
+        font-size: 20px;
+    }
+
+    .isi {
+        margin: 10px 0;
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+}

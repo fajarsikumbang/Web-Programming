@@ -1,0 +1,42 @@
+@font-face {
+    src: url(Minangkabau.TTF);
+    font-family: 'Minangkabau';
+}
+
+body {
+    font-family: 'Sagoe UI', verdana, sans-serif;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: aqua;
+}
+
+p {
+    font-size: 1.5rem;
+    color: blueviolet;
+}
+
+p.p2 {
+    font-size: 1.25rem;
+    font-style: oblique;
+    font-variant: small-caps;
+    color: pink;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: chartreuse;
+}
+
+p.p3 {
+    font: italic small-caps 500 1.26rem 'Time New Roman', serif;
+    color: darkgreen;
+}
+
+p.p4 {
+    font: normal normal 400 1rem 'Minangkabau', serif;
+    color: crimson;
+}

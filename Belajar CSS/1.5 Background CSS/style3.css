@@ -1,0 +1,19 @@
+body {
+    height: 1000px;
+    /*background-image: url(./Image/pixel-heart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;*/
+    background: url(./Image/mushroom.png) 100px 100px no-repeat fixed;
+}
+
+h1 {
+    background-color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}

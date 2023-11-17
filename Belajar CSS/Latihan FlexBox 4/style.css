@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Homemade+Apple&family=M+PLUS+Rounded+1c:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    padding: 20px 42px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d5d9b;
+    color: #fefefe;
+}
+
+nav .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+    justify-content: space-between;
+}
+
+nav .navbar-menu li a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+nav .navbar-menu li a:hover {
+    padding: 6px 8px;
+    border-radius: 50px;
+    background-color: #f4d160;
+    color: #1d5d9b;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    position: relative;
+}
+
+.navbar-toggle input {
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    top: 0;
+    left: -10px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.navbar-toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    transition: all 500ms ease;
+}
+
+/* Efek Humburger */
+.navbar-toggle div:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.navbar-toggle div:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.navbar-toggle input:checked~div:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.navbar-toggle input:checked~div:nth-child(4) {
+    transform: rotate(-45deg);
+}
+
+.navbar-toggle input:checked~div:nth-child(3) {
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* Mode Tablet */
+@media screen and (max-width: 768px) {
+    nav .navbar-menu {
+        width: 60%;
+    }
+}
+
+/* Mode HP */
+@media screen and (max-width: 576px) {
+    nav .navbar-menu {
+        /* display: none; */
+        background-color: #1d5d9b;
+        position: absolute;
+        padding-top: 40px;
+        top: 0;
+        right: -800px;
+        height: 100vh;
+        width: 70%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: -1;
+        transition: all 450ms ease-in-out;
+        opacity: 0;
+    }
+
+    nav .navbar-menu.open {
+        right: 0;
+        opacity: 1;
+    }
+
+    nav .navbar-toggle {
+        display: flex;
+    }
+}

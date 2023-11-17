@@ -1,0 +1,152 @@
+/* 
+    Buatlah sebuah Card seperti contoh disamping
+    Petunjuk:
+    1. Lebar card 400px, radius lengkung 15px, warna #f5f5f5, diberi padding 25px
+    2. Ukuran gambar 400px x 250px
+    3. Lebar gambar mobil 300px
+    4. Jarak antara gambar mobil dan konten sejauh 40px
+    5. Ukuran huruf pada nama mobil 32px, tebal 700, warna #576cbc
+    6. Ukuran huruf pada tulisan 'Fitur' 24px, warna #19376D
+    7. Jarak antara list fitur dengan harga 32px
+    8. Jarak antar baris pada list fitur sebesar 1.5
+    9. Ukuran huruf pada harga 32px, tebal 700, warna #576CBC
+    10. Untuk tombol : 
+        - Jarak antara tombol dengan paragraf deskripsi sejauh 20px
+        - Ukuran font pada tombol 22px, tebal 700
+        - Lebar tombol 200px
+        - Beri padding 12px (atas-bawah) dan 24px (kiri-kanan);
+        - Warna tombol #576CBC, warna teks pada tombol #f5f5f5
+    11. Ketika mouse berada diatas card, warna card berubah menjadi #DFCCFB
+        dan tulisannya berwarna putih
+    12. Ketika mouse berada diatas tombol, warna tombol berubah menjadi #F6F6F6
+        dan tulisannya berwarna #19376D;
+    13. GUNAKAN PROPERTI POSITION dan Z-INDEX yang sudah dipelajari!
+    14. GUNAKAN PSEUDO CLASS yang sudah dipelajari!
+    15. Disarankan untuk tidak menggunakan CSS Framework terlebih dahulu
+        seperti Bootstrap CSS, TailwindCSS, dll.
+
+    Nilai untuk latihan ini = 700 poin
+    Selamat Mengerjakan, Semoga paham :)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #fff6f6;
+    margin: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.card {
+    width: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #f5f5f5;
+    /* padding: 25px; */
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+}
+
+.mobil ul li:first-child {
+    color: #19376D;
+}
+
+.card:hover ul li {
+    color: white;
+}
+
+.card:hover {
+    background-color: #DFCCFB;
+
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: -100px;
+}
+
+img.mobil {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+
+}
+
+/* .card img:nth-child(2) {
+    width: 300px;
+    display: block;
+    margin: 40px auto;
+    background-size: cover;
+    background-position: center
+} */
+
+.card h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576cbc;
+    margin: 10px 0;
+}
+
+.card .specs {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.fitur {
+    font-weight: 700;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+    color: #19376D;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576CBC;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.card button {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f5f5f5;
+    background-color: #576CBC;
+    border: none;
+    width: 200px;
+    border-radius: 15px;
+    padding: 12px 24px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card button:hover {
+    background-color: #F6F6F6;
+    color: #19376D;
+}

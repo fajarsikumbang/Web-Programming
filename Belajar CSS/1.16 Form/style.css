@@ -1,0 +1,29 @@
+.pos li:nth-child(3) {
+    background-color: red;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+}
+
+input[type="text"]:focus {
+    background-color: lightblue;
+    outline: none;
+    border: 2px solid red;
+}
+
+select:focus {
+    background-color: ivory;
+}
+
+input[type="date"]:disabled,
+input[type="number"]:disabled {
+    background-color: red;
+    color: linen;
+}
+
+input:enabled,
+select:enabled {
+    background-color: yellow;
+}

@@ -1,0 +1,18 @@
+body {
+    /* background-color: white;
+    background-image: url('./Image/Padang\ Rumput\ 1\ \(Large\).jpg');
+    background-repeat: no-repeat; */
+    /* background-position: bottom center; */
+    margin-left: 30px;
+    margin-top: 20px;
+    background: #ffff url(./Image/paisley.png) no-repeat center center;
+    background-size: cover;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+p {
+    color: indianred;
+}

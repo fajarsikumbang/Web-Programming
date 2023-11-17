@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Grid</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 60%;
+            display: grid;
+            margin: 50px auto;
+            grid-template-columns: repeat(auto-fit, 1fr);
+            grid-template-areas: 
+            'header header header'
+            'aside content content'
+            'aside content content'
+            'footer footer footer';
+            /*column-gap: 10px; -->
+            row-gap: 20px;*/
+            gap: 20px 210px;
+        }
+
+        .item {
+            width: 100%;
+            padding: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .item.header{
+            background-color: skyblue;
+            grid-area: header;
+        }
+        .item.aside{
+            background-color: lightgreen;
+            grid-area: aside;
+        }
+        .item.content{
+            background-color: lightcoral;
+            grid-area: content;
+        }
+        .item.footer{
+            background-color: lightgray;
+            grid-area: footer;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item header">Header</div>
+        <div class="item aside">Aside</div>
+        <div class="item content">Content</div>
+        <div class="item footer">Footer</div>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+/* 
+  1. Gunakan Selector CSS yang sudah dipelajari sebelumnya (10 poin)
+  2. Gunakan properti-properti font yang sudah dipelajari (10 poin)
+  3. Gunakan properti-properti text yang sudah dipelajari (10 poin)
+  4. Opsional : menggunakan properti shorthand font (Bonus 20 poin)
+  5. Opsional : menggunakan custom font/font dari luar (Bonus 30 poin)
+  6. Opsional : membuat tampilan menjadi lebih menarik lagi (Bonus 50 poin)
+
+  Clue : 
+  1. Font : Arial
+  2. Ukuran font h1 : 42px
+  3. Ukuran font h2 : 32px
+  4. Ketebalan huruf pada kata 'kegiatan' : 900
+  5. Ketebalan huruf pada kata 'saung endah' : 600
+  6. Jarak antar baris pada list : 1.5
+*/

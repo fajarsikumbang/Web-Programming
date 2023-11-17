@@ -1,0 +1,139 @@
+/* 
+    Buatlah sebuah Card seperti contoh disamping
+    Petunjuk:
+    1. Ukuran card 400px x 450px, radius lengkung 25px, warna #f5f5f5, diberi padding 25px
+    2. Ukuran gambar 200px x 200px, dibuat lingkaran
+    3. Jarak antara gambar dan konten sejauh 100px
+    4. Ukuran huruf pada nama 32px, tebal 700
+    5. Ukuran huruf pada jabatan 24px, warna #4682A9
+    6. Jarak antar baris pada deskripsi 1.5, rata kiri-kanan
+    7. Untuk tombol : 
+        - Jarak antara tombol dengan paragraf deskripsi sejauh 20px
+        - Ukuran font pada tombol 18px, tebal 700
+        - Lebar tombol 200px
+        - Beri padding 12px (atas-bawah) dan 24px (kiri-kanan);
+        - Warna tombol #91C8E4, warna teks pada tombol #f5f5f5
+    8. Warna efek hover menggunakan gradien warna #56ccf2 dan #2f80ed
+      dengan arah gradient dari atas ke bawah
+    9. GUNAKAN PROPERTI POSITION dan Z-INDEX yang sudah dipelajari!
+    10. GUNAKAN PSEUDO-CLASS dan PSEUDO ELEMENT yang sudah dipelajari!
+    11. GUNAKAN GRADIENT, BOX-SHADOW, TRANSFORM, dan TRANSITION yang sudah dipelajari!
+    12. Disarankan untuk tidak menggunakan CSS Framework terlebih dahulu
+        seperti Bootstrap CSS, TailwindCSS, dll.
+
+    Nilai untuk latihan ini = 800 poin
+    Selamat Mengerjakan, Semoga paham :)
+
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f4f8;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+/* .container {
+  display: inline-block;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 400px;
+  height: 450px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 25px;
+} */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 400px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 25px;
+  position: relative;
+  margin: 10px;
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.nama {
+  font-weight: bold;
+}
+
+.card1>div,
+.card2>div,
+.card3>div {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.card1 div:nth-child(2) img,
+.card2 div:nth-child(2) img,
+.card3 div:nth-child(2) img {
+  position: relative;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-right: 200px;
+}
+
+.card1 div:nth-child(2) div,
+.card2 div:nth-child(2) div,
+.card3 div:nth-child(2) div {
+  margin-top: 20px;
+}
+
+.card1 div:nth-child(2) div button,
+.card2 div:nth-child(2) div button,
+.card3 div:nth-child(2) div button {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 200px;
+  padding: 12px 24px;
+  background-color: #91C8E4;
+  color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.card1 div:nth-child(2) div button:hover,
+.card2 div:nth-child(2) div button:hover,
+.card3 div:nth-child(2) div button:hover {
+  background: linear-gradient(#56ccf2, #2f80ed);
+}

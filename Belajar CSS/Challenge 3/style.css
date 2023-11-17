@@ -1,0 +1,57 @@
+.container {
+    width: 900px;
+    height: 900px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.kotak1,
+.kotak2,
+.kotak3,
+.kotak4 {
+    background-color: pink;
+    height: 160px;
+    width: 160px;
+}
+
+.kotak5 {
+    height: 560px;
+    width: 560px;
+    border: 1px solid black;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    padding: 9px;
+}
+
+.kotak5 p {
+    text-align: justify;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+.kotak1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.kotak2 {
+    position: absolute;
+    top: 752px;
+}
+
+.kotak3 {
+    position: absolute;
+    left: 752px;
+}
+
+.kotak4 {
+    position: absolute;
+    top: 752px;
+    left: 752px;
+}

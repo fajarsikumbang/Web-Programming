@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Belajar Form</title>
+</head>
+<body>
+    <form name="Pendaftaran">
+        <label for="nama">Nama: </label>
+        <input type="text" name="nama" id="nama"> <br>
+        <label for="alamat">Alamat: </label>
+        <input type="text" name="alamat" id="alamat"> <br>
+        <label for="telepon">Telepon: </label>
+        <input type="text" name="telepon" id="telepon" value="08" maxlength="13"> <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email"> <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password"> <br>
+
+        <label for="hobby">Hobby</label> <br>
+        <!-- <select name="hobby" id="hobby">
+            <option value="Ngoding">Ngoding</option>
+            <option value="Mancing" disabled>Mancing</option>
+            <option value="Gaming" selected>Gaming</option>
+        </select> <br> -->
+
+        <select name="hobby" id="hobby">
+            <optgroup label="Hobby">
+                <option value="Ngoding">Ngoding</option>
+                <option value="Mancing" disabled>Mancing</option>
+                <option value="Gaming" selected>Gaming</option>
+        </optgroup>
+
+        <optgroup label="Domisili">
+            <option value="Telagasari">Telagasari</option>
+            <option value="Majalaya">Majalaya</option>
+            <option value="Klari" selected>Klari</option>
+    </optgroup>
+        </select>
+        <br>
+
+        <!-- <input type="checkbox" value="ngoding" id="ngoding" name="ngoding">
+        <label for="ngoding">ngoding</label>
+        <input type="checkbox" value="mancing" id="mancing" name="mancing">
+        <label for="mancing">mancing</label>
+        <input type="checkbox" value="tidur" id="tidur" name="tidur">
+        <label for="tidur">tidur</label> <br> -->
+
+
+        <label>Jenis Kelamin: </label> <br>
+        <input type="radio" value="pria" id="pria" name="gender">
+        <label for="pria">Pria</label>
+        <input type="radio" value="wanita" id="wanita" name="gender">
+        <label for="wanita">Wanita</label> <br>
+
+        <input type="submit" value="kirim">
+        <input type="reset" value="hapus">
+        <input type="button" value="tekan!">
+    </form>
+</body>
+</html>

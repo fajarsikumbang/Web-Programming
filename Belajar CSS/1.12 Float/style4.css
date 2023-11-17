@@ -1,0 +1,172 @@
+/*Cara Ketiga*/
+.cf::before,
+.cf::after {
+    content: '';
+    display: table;
+
+}
+
+.cf::after {
+    clear: both;
+}
+
+
+
+.container {
+    width: 900px;
+    border: 2px solid red;
+    margin: auto;
+    font-size: 22px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.container2 {
+    width: 900px;
+    border: 2px solid red;
+    margin: auto;
+    font-size: 22px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.container3 {
+    width: 900px;
+    border: 2px solid red;
+    margin: auto;
+    font-size: 22px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.container4 {
+    width: 900px;
+    border: 2px solid red;
+    margin: auto;
+    font-size: 22px;
+    padding: 5px;
+    overflow: auto;
+}
+
+/*.container .kotak {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: fuchsia;
+    margin: 5px;
+    color: white;
+    line-height: 80px;
+    float: left;
+}*/
+
+/*Cara Kedua*/
+.clear {
+    clear: both;
+}
+
+
+
+.kotak1 {
+    width: 200px;
+    height: 150px;
+    background-color: #7c81ad;
+    margin: 5px;
+    float: left;
+}
+
+.kotak2 {
+    width: 200px;
+    height: 150px;
+    background-color: #C70039;
+    margin: 5px;
+    float: left;
+}
+
+.kotak3 {
+    width: 200px;
+    height: 150px;
+    background-color: #78D6C6;
+    margin: 5px;
+    float: left;
+}
+
+.container2 .kotak1 {
+    width: 150px;
+    height: 100px;
+    background-color: pink;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+}
+
+.container2 .kotak2 {
+    width: 150px;
+    height: 100px;
+    background-color: yellow;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+}
+
+.container2 .kotak3 {
+    width: 150px;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 5px;
+    float: left;
+    border-radius: 50%;
+}
+
+.container3 .kotak1 {
+    width: 150px;
+    height: 100px;
+    background-color: burlywood;
+    margin: 5px;
+    float: left;
+    border-radius: 35%;
+}
+
+.container3 .kotak2 {
+    width: 150px;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 5px;
+    float: left;
+    border-radius: 35%;
+}
+
+.container3 .kotak3 {
+    width: 150px;
+    height: 100px;
+    background-color: khaki;
+    margin: 5px;
+    float: left;
+    border-radius: 35%;
+}
+
+.container4 .kotak1 {
+    width: 150px;
+    height: 100px;
+    background-color: powderblue;
+    margin: 5px;
+    float: left;
+    border-radius: 15%;
+}
+
+.container4 .kotak2 {
+    width: 150px;
+    height: 100px;
+    background-color: gold;
+    margin: 5px;
+    float: left;
+    border-radius: 15%;
+}
+
+.container4 .kotak3 {
+    width: 150px;
+    height: 100px;
+    background-color: lawngreen;
+    margin: 5px;
+    float: left;
+    border-radius: 15%;
+}

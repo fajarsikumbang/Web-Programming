@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ini form ke-3</title>
+</head>
+<h1 style="text-align: center;">
+    <span style="color: #210dd4;">INI FORM REGISTRASI</span></h1>
+<body style="background-color: #66bef5;">
+    <table style="background-color: rgb(255, 0, 183); margin-left: auto;margin-right: auto;" border="2">
+        <form onsubmit="return validateForm()">
+           <tr>
+            <td>
+                <label for="Email">Email Kamu</label>
+                <input type="email" name="Email" id="Email" required>
+            </td>
+           <tr>
+            <td>
+                <label for="Username">Username kamu</label>
+                <input type="text" name="Username Kamu" id="UsernameKamu" required>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="date">Tanggal Lahir</label>
+                <input type="date" name="date" id="date" required>
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <label for="Alamat">Alamat </label>
+                <input type="text" name="Alamat" id="Alamat" required>
+            </td>
+           </tr>
+          
+           <tr>
+            <td>
+                <label for="NO WA">NO WA:</label>
+                <input type="tel" id="NO_WA" required> 
+            </td>
+        </tr>
+             <tr>
+            <td>
+                <label for="Submit"></label>
+                <input type="submit" value="KIRIM DISINI" id="Submit">
+            </td>
+           </tr>
+           <tr>
+            <td>
+                <a href="form2.html" title="LANGSUNG LOGIN?">LANGSUNG LOGIN?</a>
+            </td>
+           </tr>
+        </form>
+
+    </table>
+
+    <script>
+        function validateForm() {
+            var email = document.getElementById("Email").value;
+            var username = document.getElementById("UsernameKamu").value;
+            var birthdate = document.getElementById("date").value;
+            var address = document.getElementById("Alamat").value;
+            var phoneNumber = document.getElementById("NO_WA").value;
+
+            if (email == "" || username == "" || birthdate == "" || address == "" || phoneNumber == "") {
+                alert("Mohon isi semua kolom.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

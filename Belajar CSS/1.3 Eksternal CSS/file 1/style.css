@@ -1,0 +1,76 @@
+/* Universal Selector
+* {
+    background-color: navy;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* Element Selector */
+h1,
+h2,
+h4,
+h5 {
+    color: pink;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: pink;
+
+
+}
+
+p {
+    color: navy;
+    font-size: 24px;
+    font-style: italic;
+}
+
+ul li a {
+    color: red;
+
+}
+
+ol li a {
+    color: darkkhaki;
+    background-color: antiquewhite;
+    background-attachment: fixed;
+}
+
+/* div article section p {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: aqua;
+} */
+
+/* .p1 {
+    color: crimson;
+}
+
+#p2 {
+    color: goldenrod;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p.bold {
+    font-size: 32px;
+} */
+
+.p3 {
+    color: aqua;
+    font-size: 32px;
+}
+
+.p4 {
+    color: aquamarine;
+    font-size: 24px;
+}

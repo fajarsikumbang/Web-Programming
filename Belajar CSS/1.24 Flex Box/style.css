@@ -1,0 +1,36 @@
+.container {
+    border: 1px solid black;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+
+    /* justify-content: center; */
+    align-items: stretch;
+}
+
+
+.container div {
+    width: 100px;
+    /* height: 100px; */
+    background-color: skyblue;
+    /* margin: 5px; */
+}
+
+.satu {
+    order: 4;
+}
+
+.tiga {
+    order: 1;
+}
+
+.dua {
+    order: 3;
+}
+
+/* .empat {
+    order: 1;
+} */

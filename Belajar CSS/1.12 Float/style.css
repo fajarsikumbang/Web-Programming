@@ -1,0 +1,22 @@
+div {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+}
+
+.kotak1 {
+    background-color: #C1D8C3;
+
+}
+
+.kotak2 {
+    background-color: #F5E8B7;
+    float: left;
+}
+
+.kotak3 {
+    background-color: #CD5C08;
+    margin-left: 75px;
+
+}

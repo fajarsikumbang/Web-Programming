@@ -1,0 +1,32 @@
+.center {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.right {
+    text-align: right;
+    text-transform: capitalize;
+}
+
+.justify {
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 2;
+}
+
+.right span {
+    text-decoration: line-through;
+}
+
+.right span.consequatur {
+    color: red;
+}
+
+.word-spacing {
+    word-spacing: 20px;
+}
+
+.word-spacing span {
+    letter-spacing: 10px;
+}

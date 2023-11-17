@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('space-header.jpg'); /* Ganti dengan gambar luar angkasa yang Anda inginkan */
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+}
+
+section {
+    padding: 50px;
+}
+
+.intro {
+    background-color: #333;
+    color: #fff;
+}
+
+.galaxy {
+    background-color: #000;
+    color: #fff;
+}
+
+.planets {
+    background-color: #111;
+    color: #fff;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

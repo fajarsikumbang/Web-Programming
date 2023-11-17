@@ -1,0 +1,120 @@
+/*  
+    Buat 3 Buah Card seperti gambar di png
+    Petunjuk : 
+    1. Masing-masing card mempunyai lebar 300px
+    2. Tinggi gambar 200px
+    3. Jarak lengkung untuk card 10px, untuk gambar 12px
+    4. Ukuran huruf pada nama tempat sebesar 24px, ketebalan huruf 700
+    5. Ukuran huruf pada paragraf 14px, jarak antar baris 1.5, dan berwarna #7f8c9b
+    6. Jarak lengkung pada tombol 50px, ketebalan huruf 700,
+      dan kode warnanya #54bafc
+    7. Disarankan untuk tidak menggunakan CSS Framework terlebih dahulu
+       contohnya seperti Bootstrap, TailwindCSS, dll.
+
+    Total poin untuk latihan ini = 500 poin
+
+    Selamat mengerjakan, semoga paham :) 
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: yellowgreen;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+h3 {
+  font: 700 normal 24px 'Raleway', sans-serif;
+  margin: 15px 0 10px;
+  color: white;
+}
+
+button {
+  background-color: #54bafc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  font: 700 normal 15px 'Raleway', sans-serif;
+  margin: 20px 25% 5px;
+}
+
+button:hover {
+  background-color: rgb(0, 76, 255);
+}
+
+img {
+  width: 270px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+  right: 6px;
+  bottom: 10px;
+}
+
+.incontain {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+div span {
+  font: 400 normal 14px 'Raleway', sans-serif;
+  border: 1px solid grey;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+p {
+  font: 400 normal 14px 'Raleway', sans-serif;
+  line-height: 1.5em;
+  color: white;
+}
+
+.candijiwa {
+  margin: 5px 0;
+}
+
+.pantai-sedari {
+  margin: 5px 0;
+}
+
+.walahar {
+  margin: 5px 0;
+}
+
+.spancontain {
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background: gray;
+  color: white;
+}
+
+span:hover {
+  background-color: gray;
+}

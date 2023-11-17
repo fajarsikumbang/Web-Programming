@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Homemade+Apple&family=M+PLUS+Rounded+1c:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7743DB;
+    font-family: 'Apple', sans-serif;
+}
+
+nav {
+    background-color: #FF5B22;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    color: #F7EFE5;
+}
+
+nav .navbar-logo {
+    display: flex;
+    max-width: 100px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.navbar-logo h2 {
+    font-size: 32px;
+}
+
+.navbar-logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.navbar-toggle {
+    font-size: 24px;
+    display: none;
+}
+
+nav .navbar-menu {
+    width: 50%;
+}
+
+.navbar-menu ul.menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+ul.menu-list li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #F7EFE5;
+    padding: 8px 0;
+    transition: all 200ms ease-in-out;
+}
+
+ul.menu-list li a:hover {
+    color: #F7EFE5;
+    border-bottom: 2px solid #706233;
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        flex: wrap;
+        width: 100%;
+        position: sticky;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-toggle {
+        display: flex;
+        align-items: center;
+    }
+
+}

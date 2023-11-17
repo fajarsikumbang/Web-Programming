@@ -1,0 +1,85 @@
+/* 
+  1. Gunakan Selector CSS yang sudah dipelajari sebelumnya (10 poin)
+  2. Gunakan properti-properti font yang sudah dipelajari (10 poin)
+  3. Gunakan properti-properti text yang sudah dipelajari (10 poin)
+  4. Opsional : menggunakan properti shorthand font (Bonus 20 poin)
+  5. Opsional : menggunakan custom font/font dari luar (Bonus 30 poin)
+  6. Opsional : membuat tampilan menjadi lebih menarik lagi (Bonus 50 poin)
+
+  Clue : 
+  1. Font : Tahoma
+  2. Ukuran font h1 : 42px
+  3. Ukuran font h2 : 28px
+  4. Ketebalan huruf pada h1 : 700
+  5. Ketebalan huruf pada kata di dalam span : 700
+  6. Jarak antar baris pada paragraf : 1.3
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url(Anime.otf);
+  font-family: 'Anime';
+
+}
+
+body {
+  background-color: cadetblue;
+}
+
+h1 {
+  font-family: 'Tahona';
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Tahoma';
+  font-size: 28px;
+  line-height: 1.3;
+  color: orange;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.s1 {
+  text-decoration: underline;
+  text-transform: lowercase;
+  color: red;
+}
+
+.s2,
+.s5 {
+  font-style: italic;
+}
+
+.s3 {
+  color: green;
+  text-decoration: underline;
+}
+
+.s4 {
+  text-decoration: underline;
+  color: yellowgreen;
+}
+
+.s6 {
+  color: palevioletred;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+  font-family: 'Anime', Arial, serif;
+  color: white;
+  line-height: 40px;
+}

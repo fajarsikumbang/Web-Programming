@@ -1,0 +1,126 @@
+@font-face {
+    src: url(Aubange\ Belgium\ Regular.otf);
+    font-family: 'Belgium';
+}
+
+@font-face {
+    src: url(Autumn\ Wind.otf);
+    font-family: 'Autumm';
+}
+
+
+
+/* 
+    Judul Website:
+    Jenis Font: Segoe UI
+    Ukuran teks: 42px
+    Ketebalan: 700
+ */
+h1 {
+    font-family: 'Belgium';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-family: 'Autum';
+}
+
+/* 
+    Paragraf 1 :
+    Jenis font : Arial
+    Ukuran Teks : 18px;
+ */
+.p1 {
+
+    font-size: 18px;
+}
+
+/* 
+    Paragraf 2 :
+    Jenis font : Verdana
+    Ukuran Teks : 22px;
+    Font varian : normal
+    Ketebalan font : bold
+    Rata kiri
+ */
+.p2 {
+
+    font-size: 22px;
+    font-variant: normal;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 
+    Paragraf 3 :
+    Jenis font : Tahoma
+    Ukuran Teks : 26px;
+    Font varian : small-caps
+    Jarak antar baris: 26px;
+    Ketebalan font : 600
+    Rata tengah
+ */
+.p3 {
+
+    font-size: 26px;
+    font-variant: small-caps;
+    line-height: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* 
+    Paragraf 4 :
+    Jenis font : Georgia
+    Ukuran Teks : 28px;
+    Ketebalan font : 600
+    Jarak antar baris: 28px
+    Rata kanan
+    Pakai huruf besar (uppercase)
+    Berikan garis bawah pada kata yang diberi <span>
+ */
+.p4 {
+
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.p4 span {
+    text-decoration: underline;
+    color: pink;
+}
+
+/* 
+    Paragraf 5 :
+    Jenis font : Calibri
+    Ukuran Teks : 32px;
+    Ketebalan font : 800
+    Jarak antar baris: 32px
+    Rata kanan
+    Pakai huruf kecil (lowercase)
+    Berikan garis tengah pada kata yang diberi <span>
+    (Khusus paragraf ini, coba gunakan properti shorthand 'font') (Bonus 20 poin)
+ */
+.p5 {
+
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 32px;
+    text-align: right;
+    text-transform: lowercase;
+
+}
+
+.p5 span.shorthand {
+    text-decoration: line-through;
+    color: aqua;
+}
+
+/* Opsional : menggunakan custom font/font dari luar (Bonus 30 poin) */
+
+/* Kerjakan dibawah sini! */

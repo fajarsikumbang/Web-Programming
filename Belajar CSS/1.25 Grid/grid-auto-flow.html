@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Grid</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: 100px 200px;
+            grid-template-rows: 200px 300px;
+            grid-auto-columns: 100px;
+            grid-auto-flow: column;
+            margin: 50px auto;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: coral;
+            font-size: 32px;
+            border-radius: 5px;
+        }
+
+        .item:nth-child(odd){
+            background-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+        <div class="item">11</div>
+        <div class="item">12</div>
+
+</body>
+
+</html>

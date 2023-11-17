@@ -1,0 +1,68 @@
+.outer {
+    width: 300px;
+    height: 150px;
+    background-color: bisque;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background-color: aquamarine;
+    margin: auto;
+    padding-bottom: 16%;
+}
+
+.min-width {
+    background-color: magenta;
+    min-width: 500px;
+}
+
+.max-width {
+    background-color: hotpink;
+    max-width: 500p;
+}
+
+.over-flowsatu {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 32px;
+
+}
+
+.over-flowdua {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 32px;
+
+}
+
+.over-flowtiga {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 32px;
+
+}
+
+.over-flowempat {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 32px;
+
+}
+
+.over-flowlima {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    overflow: scroll;
+    font-size: 32px;
+
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(0, 157, 255);
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.p1 {
+    color: maroon;
+}
+
+.p2 {
+    color: gold;
+}
+
+#p3 {
+    color: green;
+}
+
+#p4 {
+    color: yellow;
+}
+
+.p5 {
+    color: yellow;
+}
+
+ul li a {
+    color: crimson;
+}

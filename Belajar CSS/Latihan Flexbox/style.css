@@ -1,0 +1,168 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+  line-height: 1.5;
+}
+
+/* Kerjakan Latihan 1 disini */
+
+.container {
+  width: 80%;
+  margin: 2em auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding: 1em;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.paragraf {
+  order: 2;
+}
+
+.sidebar1 {
+  width: 35em;
+  order: 1;
+}
+
+.sidebar2 {
+  order: 3;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+/* end Latihan 1 */
+
+/* Kerjakan Latihan 2 disini */
+.container2 div {
+  width: 500px;
+  /* height: 300px; */
+  margin: 15px 15px;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 35px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.s1 {
+  background-color: blueviolet;
+}
+
+.s2 {
+  background-color: goldenrod;
+}
+
+.s3 {
+  background-color: greenyellow;
+}
+
+@media (min-width: 600px) {
+  .container2 {
+    flex-direction: row;
+  }
+
+  .container2 div {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+/* end Latihan 2 */
+
+/* Kerjakan Latihan 3 disini*/
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  min-width: 15em;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+  margin: 0.5em 1em;
+  text-align: center;
+}
+
+.greying {
+  background-color: gray;
+  min-width: 15.625em;
+  height: 7.5em;
+  margin: auto;
+}
+
+.content {
+  width: 15em;
+  /* margin: 0.2em; */
+  margin: auto;
+}
+
+button {
+  display: block;
+  margin: 0.5em auto;
+}
+
+@media (min-width: 600px) {
+  .container3 {
+    flex-direction: row;
+  }
+
+  .card {
+    width: 10em;
+    text-align: center;
+  }
+
+  .greyimg {
+    width: 100%;
+  }
+
+  .content {
+    margin: auto;
+  }
+}
+
+/* end Latihan 3 */
+
+/* Kerjakan Latihan 4 disini*/
+.borderbox {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  flex-wrap: wrap;
+}
+
+.redbox {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.redbox span {
+  line-height: 200px;
+}
+
+/* end Latihan 4 */

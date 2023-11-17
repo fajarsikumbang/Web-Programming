@@ -1,0 +1,25 @@
+@font-face {
+    src: url('Anime.otf');
+    font-family: 'Anime';
+}
+
+p {
+    font-family: 'Anime', sans-serif;
+    font-size: 32px;
+    color: pink;
+    font-style: italic;
+}
+
+
+/* p.p2 {
+    font-family: Tahoma;
+    font-size: 36px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-display: block;
+    font-weight: bold;
+}*/
+
+.p2 {
+    font: 36px 'New Times Roman', serif;
+}

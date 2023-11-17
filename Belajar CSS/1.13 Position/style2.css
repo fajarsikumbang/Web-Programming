@@ -1,0 +1,44 @@
+.container {
+    width: 800px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.pic1,
+.pic2 {
+    height: 250px;
+    width: 500px;
+    margin: 10px;
+}
+
+.pic3,
+.pic4 {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+
+.pic1,
+.pic5,
+.pic3 {
+    float: right;
+}
+
+.pic2,
+.pic6,
+.pic4 {
+    float: left;
+}
+
+p {
+    text-align: justify;
+}
+
+.pic5,
+.pic6 {
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}

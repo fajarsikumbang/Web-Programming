@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Datar Piket</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, input, select {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input, select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulir Datar Piket</h1>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="kelas">Kelas:</label>
+        <select id="kelas" name="kelas" required>
+            <option value="">Pilih Kelas</option>
+            <option value="X">X</option>
+            <option value="XI">XI</option>
+            <option value="XII">XII</option>
+        </select>
+
+        <label for="tanggal">Tanggal Piket:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <input type="submit" value="Daftar Piket">
+    </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.container {
+    width: 900px;
+    border: 3px dashed red;
+    padding: 12px;
+    margin: 30px auto;
+}
+
+.container img {
+    width: 200px;
+    margin: 15px;
+    float: right;
+}

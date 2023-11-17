@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulir Pendaftaran Pelatihan BLK Karawang</title>
+    <style>
+        label {
+            display: inline-block;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, input, select, textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        input[type="radio"] {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Formulir Pendaftaran Pelatihan BLK Karawang</h1>
+    <form>
+        <label for="nik">Nik</label>
+        <input type="text" id="nik" name="nik" required>
+
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="tempat-lahir">Tempat Lahir</label>
+        <input type="text" id="tempat-lahir" name="tempat-lahir" required>
+
+        <label for="date">Tanggal Lahir</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="gender">Jenis Kelamin</label>
+        <input type="radio" value="pria" id="pria" name="gender">
+        <label for="pria">Pria</label>
+
+        <input type="radio" value="wanita" id="wanita" name="gender">
+        <label for="wanita">Wanita</label>
+
+        <label for="pendidikan">Pendidikan Terakhir</label>
+        <select name="pendidikan" id="pendidikan">
+            <option value="">Pilih Pendidikan..</option> 
+            <option value="SD">SD</option> 
+            <option value="SMP">SMP</option> 
+            <option value="SMA">SMA</option> 
+            <option value="Sarjana_1">Sarjana 1</option> 
+            <option value="Sarjana_2">Sarjana 2</option>
+            <option value="Sarjana_3">Sarjana 3</option>
+        </select>
+
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+
+        <label for="telepon">Telepon</label>
+        <input type="text" name="telepon" id="telepon" value="+62" maxlength="13">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="alasan">Alasan Mengikuti Pelatihan</label>
+        <textarea name="alasan" id="alasan" cols="20" rows="5"></textarea>
+
+        <label>Sumber Informasi</label>
+        <input type="radio" id="sosial-media" name="sumber-informasi" value="Sosial Media" required>
+        <label for="sosial-media">Sosial Media</label>
+
+        <input type="radio" id="brosur" name="sumber-informasi" value="Brosur" required>
+        <label for="brosur">Brosur</label>
+
+        <input type="radio" id="teman-keluarga" name="sumber-informasi" value="Teman/Keluarga" required>
+        <label for="teman-keluarga">Teman/Keluarga</label>
+
+        <br>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

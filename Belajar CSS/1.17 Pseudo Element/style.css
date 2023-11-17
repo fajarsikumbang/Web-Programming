@@ -1,0 +1,39 @@
+p {
+    text-align: center;
+}
+
+p::first-line {
+    background-color: yellow;
+    font-weight: 700;
+}
+
+p::first-letter {
+    font-size: 64px;
+    font-family: 'Arial';
+    color: red;
+}
+
+.ps::before {
+    content: '';
+    background-image: url(tuyul.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.ps::after {
+    content: '';
+    background-image: url(bocil.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+p::selection {
+    /* background-color: red; */
+    user-select: none;
+}

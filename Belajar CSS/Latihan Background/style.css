@@ -1,0 +1,70 @@
+/* 
+  1. Berilah background warna untuk masing-masing paragraf (@10 poin)
+  2. Khusus paragraf 4 dan 5, cobalah gunakan background gambar (@10 poin)
+  3. Opsional : menggunakan properti shorthand background pada paragraf 4 dan 5 (Bonus 20 poin)
+  4. Opsional : menggunakan custom font/font dari luar (Bonus 20 poin)
+  5. Opsional : membuat tampilan menjadi lebih menarik lagi (Bonus min. 50 poin, tergantung dari tampilan)
+
+  Clue : 
+  1. Font : Arial
+  2. Ukuran font h1 : 42px
+  3. Ukuran font p : 18px
+  4. Jarak antar baris pada list : 1.3
+*/
+
+@font-face {
+  font-family: 'Burger';
+  src: url(Cheese\ Burger.otf);
+}
+
+@font-face {
+  font-family: 'Dance';
+  src: url(Happy-Dance.ttf);
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: yellowgreen;
+}
+
+h1 {
+  background-color: cadetblue;
+  font-size: 42px;
+  font-family: 'Burger';
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.3;
+  color: white;
+  font-family: 'Dance';
+}
+
+.p1 {
+  background-color: chartreuse;
+  color: black;
+}
+
+.p2 {
+  background-color: darkgoldenrod;
+}
+
+.p3 {
+  background-image: url(anime2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: red;
+}
+
+.p4 {
+  background-image: url(anime3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: firebrick;
+}

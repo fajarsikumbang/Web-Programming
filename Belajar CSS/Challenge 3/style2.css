@@ -1,0 +1,54 @@
+.container{
+    width: 900px;
+    height: 900px;
+    border: 2px solid black;
+    background-color: cornflowerblue;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.box1, .box2, .box3, .box4{
+    background-color: darkblue;
+    height: 160px;
+    width: 160px;
+}
+
+.box5{
+    height: 560px;
+    width: 560px;
+    border: 1px solid black;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    padding: 9px;
+}
+
+.box5 p{
+    text-align: justify;
+    margin: auto;
+    margin-top: 150px; 
+}
+
+
+.box1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.box2{
+    position: absolute;
+    top: 752px;
+}
+
+.box3{
+    position: absolute;
+    left: 752px;
+}
+
+.box4{
+    position: absolute;
+    top: 752px;
+    left: 752px;
+}

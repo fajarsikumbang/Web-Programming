@@ -1,0 +1,86 @@
+/* 
+    1. Buat Halaman Web Sederhana seperti contoh di layar
+    2. Gunakan properti-properti yang sudah dipelajari sebelumnya
+        seperti font, text, background, dan display
+    
+    - Nilai standar 80 poin
+    - Apabila ada improvement, akan ditambah bonus minimal 50 poin
+      tergantung dari seberapa menarik tampilannya
+    - Apabila pake font dari luar, bonus 20 poin. 
+ */
+
+@font-face {
+  font-family: 'Burger';
+  src: url(Cheese\ Burger.otf);
+}
+
+@font-face {
+  font-family: 'Dance';
+  src: url(Happy-Dance.ttf);
+}
+
+body {
+  background-image: url(anime5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Dance';
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+  color: pink;
+
+}
+
+header {
+  background-color: white;
+}
+
+p {
+  font-size: 28px;
+  font-family: 'Burger';
+  line-height: 1.5;
+}
+
+main {
+  background-color: white;
+}
+
+
+footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+
+.copyright {
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+<style>
+    label{
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+        margin-right: 10px;
+    }
+    .judul {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px;
+        color: aqua;
+    }
+    body {
+        background-color: blanchedalmond;
+    }
+    form {
+        background-color: aquamarine;
+        border-radius: 10px;
+        width: 70%;
+        margin: auto;
+    }
+    .footer {
+        text-align: right;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h1>Formulir Pendaftaran Pelatihan BLK Karawang</h1>
+        <label for="nik">Nik</label>
+        <input type="nik" id="nik" name="nik">
+        <br>
+        <label for="nama">Nama</label>
+        <input type="nama" id="nama" name="nama">
+        <br>
+        <label for="tempat-lahir">Tempat Lahir</label>
+        <input type="tempat-lahir" id="tempat-lahir" name="tempat-lahir">
+        <br>
+        <label for="date">Tanggal Lahir</label>
+        <input type="date" name="date" id="date" required>
+        <br>
+        <label>Jenis Kelamin: </label> <br>
+        <input type="radio" value="pria" id="pria" name="gender">
+        <label for="pria">Pria</label>
+        <input type="radio" value="wanita" id="wanita" name="gender">
+        <label for="wanita">Wanita</label>
+        <br>
+        <label for="pendidikan">Pendidikan Terakhir</label>
+        <select name="Pendidikan-Terakhir<" id="Pendidikan-Terakhir<" style="align-content: center;">
+            <option value="SD">SD</option> 
+            <option value="SMP">SMP</option> 
+            <option value="SMA">SMA</option> 
+            <option value="Sarjana">Sarjana</option> 
+        </select>
+        <br>
+        <label for="alamat">Alamat</label>
+        <textarea name="alamat" id="alamat" cols="20" rows="5"></textarea>
+        <br>
+        <label for="telepon">Telepon: </label>
+        <input type="text" name="telepon" id="telepon" value="+62" maxlength="13">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="text">Alasan Mengikuti Pelatihan</label>
+        <textarea name="Alasan-Mengikuti-Pelatihan" id="Alasan-Mengikuti-Pelatihan" cols="20" rows="5"></textarea>
+        <br>
+        <label for="sumber informasi">Sumber Informasi</label>
+        <input type="radio" id="Sosial_Media" name="Sumber_Informasi" value="Sosial_Media" required>
+        <label for="Sosial_Media">Sosial Media</label>
+
+        <input type="radio" id="brosur" name="Sumber_Informasi" value="brosur" required>
+        <label for="brosur">Brosur</label>
+
+        <input type="radio" id="teman/keluarga" name="Sumber_Informasi" value="teman/keluarga" required>
+        <label for="teman/keluarga">Teman/Keluarga</label>
+        <br>
+        <div class="footer">
+        <input type="submit" value="kirim">
+        <input type="reset" value="reset">
+        </div>
+    </form>
+</div>
+</body>
+</html> 

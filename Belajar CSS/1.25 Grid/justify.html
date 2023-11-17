@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 1000px;
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 130px);
+        justify-items: center;
+    }
+
+    .item {
+        border: 3px solid black;
+        width: 150px;
+        background-color: skyblue;
+    }
+
+    .item.i1,
+    .item.i4,
+    .item.i7 {
+        height: 100px;
+    }
+
+    .item.i2,
+    .item.i5,
+    .item.i8 {
+        height: 50px;
+    }
+
+    .item.i3,
+    .item.i6,
+    .item.i9 {
+       height: 80px;
+    }
+
+    /* width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 12px 12px 5px rgba(201, 5, 5, 0.7); */
+</style>
+
+<body>
+    <div class="container">
+        <div class="item i1">1</div>
+        <div class="item i2">2</div>
+        <div class="item i3">3</div>
+        <div class="item i4">4</div>
+        <div class="item i5">5</div>
+        <div class="item i6">6</div>
+        <div class="item i7">7</div>
+        <div class="item i8">8</div>
+        <div class="item i9">9</div>
+    </div>
+</body>
+
+</html>

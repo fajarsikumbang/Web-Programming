@@ -1,0 +1,33 @@
+/* No. 1 | Satukan 3 paragraf ini dalam satu paragraf dengan menggunakan teknik display (10 poin) */
+
+/* No. 2 | Pisahkan 3 input form dibawah ini dengan menggunakan teknik display (10 poin) */
+
+/* No. 3 | Buat list dibawah ini menjadi satu baris menggunakan teknik display (10 poin) */
+
+/* No. 4 | Buat 5 buah elemen inline (bebas asal elemen inline), lalu ubah tampilannya menjadi inline-block
+        lalu kasih ukuran lebar dan tingginya 200px X 200px dan beri warna (20 poin) */
+body {
+        line-height: 1.5;
+}
+
+.paragraph-container p {
+        display: inline;
+}
+
+label {
+        display: block;
+}
+
+ul li {
+        display: inline-block;
+        margin: 10px;
+}
+
+em {
+        width: 200px;
+        height: 200px;
+        font-style: normal;
+        display: inline-block;
+        background-color: goldenrod;
+        overflow: scroll;
+}

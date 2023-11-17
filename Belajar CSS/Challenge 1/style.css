@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 
+.cf::before,
+.cf::after {
+  content: "";
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+} */
+
+/* Kerjakan disini */
+
+/* 1. Buat style untuk class container */
+
+body {
+  background-image: url(pdip-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 600px;
+  border: 5px solid violet;
+  overflow: auto;
+  margin: auto;
+  text-align: center;
+  line-height: 185px;
+  color: black;
+  font-size: 32px;
+  margin-top: 5%;
+  overflow-y: hidden;
+}
+
+/* 2. Buat style untuk kotak */
+.kotak1 {
+  background-color: aquamarine;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak2 {
+  background-color: aquamarine;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak3 {
+  background-color: yellow;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak4 {
+  background-color: palegreen;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak1 {
+  background-color: pink;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak5 {
+  background-color: darkgoldenrod;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak6 {
+  background-color: hotpink;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak7 {
+  background-color: thistle;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak8 {
+  background-color: khaki;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+.kotak9 {
+  background-color: brown;
+  width: 185px;
+  height: 185px;
+  padding: 5px;
+  float: left;
+  margin: 5px;
+}
+
+/* 3. (Opsional) Buat style warna untuk 9 kotak */

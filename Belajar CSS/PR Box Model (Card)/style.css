@@ -1,0 +1,143 @@
+/* Buatlah 3 Buah Card seperti contoh di file png
+    Petunjuk: 
+    1. Lebar Card 300px, warna border #ddd, radius lengkung 12px
+    2. Tinggi gambar 200px, radius lengkung 12px
+    3. Jarak antara konten dan border yaitu 20px
+    4. Radius lengkung untuk tag kategori yaitu 12px, jarak antara konten dan border
+        4px (atas-bawah) dan 8px (kiri-kanan)
+    5. Ukuran huruf untuk judul 22px, ketebalan huruf 700
+    6. Ukuran huruf paragraf 14px, jarak antar baris 1.5, dan rata kiri-kanan
+    7. Untuk tombol, warna background #99dbf5, tulisan putih,
+        jarak antara konten dan border 12px (atas-bawah) & 24px (kiri-kanan)
+        radius lengkung 12px
+    8. Untuk warna background tag kategori sebagai berikut:
+        - sepakbola : #cbffa9
+        - motogp    : #e893cf
+        - indonesia : #ff9b9b
+        - internasional : #78c1f3
+    9. Disarankan untuk tidak menggunakan framework CSS
+        seperti Bootstrap, TailwindCSS, dll. 
+        Gunakan Pure CSS yaa!
+
+    Total poin untuk tugas ini = 500 poin!
+
+    Selamat Mengerjakan, Semoga Paham! :)
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.incontain {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 20px;
+  background-color: cadetblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.timnas img,
+.gakatasaray img,
+.motogp img {
+  width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.spancontain {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.spancontain span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+button {
+  background-color: #99dbf5;
+  color: white;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+div h3,
+p {
+  padding: 8px;
+}
+
+.satu,
+.dua,
+.tiga,
+.empat,
+.lima,
+.enam {
+  border-radius: 12px;
+}
+
+.satu {
+  background-color: #cbffa9;
+}
+
+.dua {
+  background-color: #ff9b9b;
+}
+
+.tiga {
+  background-color: #cbffa9;
+}
+
+.empat {
+  background-color: #78c1f3;
+}
+
+.lima {
+  background-color: #e893cf;
+}
+
+.enam {
+  background-color: #ff9b9b;
+}

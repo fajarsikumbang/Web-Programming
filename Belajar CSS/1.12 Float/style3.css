@@ -1,0 +1,45 @@
+.container {
+    width: 800px;
+    padding: 5px;
+    border: 2px solid black;
+    margin: auto;
+
+}
+
+
+.img1 {
+    width: 300px;
+    float: left;
+    margin: 5px;
+
+}
+
+.img2 {
+    width: 300px;
+    float: right;
+    margin: 5px;
+}
+
+.img3 {
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+
+.img4 {
+    width: 300px;
+    float: right;
+    margin: 5px;
+}
+
+.img5 {
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+
+.img6 {
+    width: 300px;
+    float: right;
+    margin: 5px;
+}

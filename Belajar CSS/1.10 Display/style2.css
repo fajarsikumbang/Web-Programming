@@ -1,0 +1,32 @@
+a {
+    background: lightgreen;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 5;
+
+}
+
+h1,
+ul,
+p {
+    background: aquamarine;
+}
+
+ul {
+    display: none;
+}
+
+h1 {
+    width: 300px;
+    height: 100px;
+    max-width: 500px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    overflow: scroll;
+}

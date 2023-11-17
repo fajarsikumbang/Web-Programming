@@ -1,0 +1,17 @@
+.linear {
+    width: 800px;
+    height: 400px;
+    font-size: 42px;
+    line-height: 400px;
+    text-align: center;
+    background-image: linear-gradient(red, orange, blue, green, white, skyblue 80%, purple, yellow);
+}
+
+.radial {
+    width: 800px;
+    height: 400px;
+    font-size: 42px;
+    line-height: 400px;
+    text-align: center;
+    background-image: radial-gradient(ellipse at top right, red, yellow, blue);
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body style="background-color: #e0b291;">
+    <h1 style="text-align: center;"> <span style="color: rgb(221, 131, 13);">INI FORM LOGIN</h1></span>
+    <table style="margin-left: auto; margin-right: auto; background-color: #cbdfdf;" border="1" >
+        <tr>
+            <td>
+                <form onsubmit="return validateForm()">
+                    <label for="Username">Username kamu:</label>
+                    <input type="text" id="Username" required><br>
+                    <label for="Password">Password kamu: </label>
+                    <input type="password" id="Password" required>
+                    <br>
+                    <input type="radio" id="Pria" name="Jenis Kelamin"><label for="Pria">Pria</label>
+                    <input type="radio" id="Wanita" name="Jenis Kelamin"><label for="Wanita">Wanita</label>
+                    <br>
+                    Game Faforit
+                    <select name="Game Faforit" id="Game Faforit" style="align-content: center;">
+                        <option value="PerihPayer">PerihPayer</option> 
+                        <option value="Emel">Eemel</option> 
+                        <option value="Mingkrep">Mingkrep</option> 
+                        <option value="BusSimulator">BusSimulator</option> 
+                    </select>
+                    <br>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <br>
+                    <a href="form3.html">ke web REGISTRASI</a>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        function validateForm() {
+            var username = document.getElementById("Username").value;
+            var password = document.getElementById("Password").value;
+
+            if (username == "" || password == "") {
+                alert("Mohon isi username dan password.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</body>
+</html>

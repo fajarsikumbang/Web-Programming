@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .human,
+        .werewolf {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .human {
+            opacity: 1;
+        }
+
+        .werewolf {
+            opacity: 0;
+        }
+
+        .transform-button {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .transform-button:hover {
+            background-color: #cc5500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="human" src="human.png" alt="Human">
+        <img class="werewolf" src="werewolf.png" alt="Werewolf">
+        <button class="transform-button" onclick="transform()">Transform</button>
+    </div>
+
+    <script>
+        function transform() {
+            const human = document.querySelector('.human');
+            const werewolf = document.querySelector('.werewolf');
+
+            human.style.opacity = '0';
+            werewolf.style.opacity = '1';
+        }
+    </script>
+</body>
+</html>

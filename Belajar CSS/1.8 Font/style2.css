@@ -1,0 +1,24 @@
+@font-face {
+    src: url('Anime.otf');
+    font-family: 'Anime';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=M+PLUS+Rounded+1c:wght@100&display=swap');
+
+body {
+    font-family: 'Anime', Arial, sans-serif;
+    font-size: 32px;
+    background-color: orangered;
+}
+
+p {
+    background-color: orange;
+    color: aquamarine;
+    font-size: 28px;
+    font-family: 'Almarai', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}

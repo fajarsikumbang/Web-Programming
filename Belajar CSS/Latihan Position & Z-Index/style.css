@@ -1,0 +1,121 @@
+/* 
+    Buatlah sebuah Card seperti contoh disamping
+    Petunjuk:
+    1. Ukuran card 400px x 450px, radius lengkung 25px, warna #f5f5f5, diberi padding 25px
+    2. Ukuran gambar 200px x 200px, dibuat lingkaran
+    3. Jarak antara gambar dan konten sejauh 100px
+    4. Ukuran huruf pada nama 32px, tebal 700
+    5. Ukuran huruf pada jabatan 24px, warna #4682A9
+    6. Jarak antar baris pada deskripsi 1.5, rata kiri-kanan
+    7. Untuk tombol : 
+        - Jarak antara tombol dengan paragraf deskripsi sejauh 20px
+        - Ukuran font pada tombol 18px, tebal 700
+        - Lebar tombol 200px
+        - Beri padding 12px (atas-bawah) dan 24px (kiri-kanan);
+        - Warna tombol #91C8E4, warna teks pada tombol #f5f5f5
+    8. GUNAKAN PROPERTI POSITION dan Z-INDEX yang sudah dipelajari!
+    9. Disarankan untuk tidak menggunakan CSS Framework terlebih dahulu
+        seperti Bootstrap CSS, TailwindCSS, dll.
+
+    Nilai untuk latihan ini = 500 poin
+    Selamat Mengerjakan, Semoga paham :)
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+}
+
+.card {
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    background-color: #f5f5f5;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+.image {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+
+img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 10px solid white;
+    z-index: 10;
+}
+
+.content {
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.info {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.title {
+    font: 700 normal 32px 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.grey {
+    color: #4682A9;
+}
+
+.pink {
+    color: palevioletred;
+}
+
+.green {
+    color: rgb(113, 237, 113);
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    font: 700 normal 20px 'Raleway', sans-serif;
+    border: none;
+    background-color: #91C8E4;
+    color: #f5f5f5;
+    padding: 12px 24px;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(0, 68, 255);
+}
+
+.weil {
+    margin-top: 100px;
+}

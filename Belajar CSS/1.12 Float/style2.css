@@ -1,0 +1,88 @@
+/*
+.cf::before,
+.cf::after {
+    content: '';
+    display: table;
+}
+
+.cf::after {
+    clear: both;
+}
+
+CLEARFIX BUAT FLOAT
+*/
+
+
+.container {
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+.container2 {
+    width: 700px;
+    border: 2px solid red;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+    height: 200px;
+}
+
+.container3 {
+    width: 700px;
+    border: 2px solid yellow;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+    height: 200px;
+}
+
+.kotak1 {
+    width: 150px;
+    height: 150px;
+    background-color: cadetblue;
+    float: left;
+    margin: 5px;
+}
+
+.kotak2 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    float: right;
+    margin: 5px;
+}
+
+.kotak3 {
+    width: 150px;
+    height: 150px;
+    background-color: yellowgreen;
+    float: left;
+    margin: 5px;
+}
+
+.kotak4 {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    float: right;
+    margin: 5px;
+}
+
+.kotak5 {
+    width: 150px;
+    height: 150px;
+    background-color: pink;
+    float: left;
+    margin: 5px;
+}
+
+.kotak6 {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    float: right;
+    margin: 5px;
+}

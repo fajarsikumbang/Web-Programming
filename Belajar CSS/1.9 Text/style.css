@@ -1,0 +1,32 @@
+h1,
+p.p1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline;
+    line-height: 28px;
+}
+
+h2,
+p.p2 {
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: underline;
+    line-height: 24px;
+}
+
+h3,
+p.p3 {
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    line-height: 26px;
+}
+
+/*h4,*/
+p.p4 {
+    text-align: justify;
+    text-transform: none;
+    text-indent: 36px;
+    line-height: 23px;
+
+}

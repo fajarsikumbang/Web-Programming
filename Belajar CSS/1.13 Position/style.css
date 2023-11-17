@@ -1,0 +1,19 @@
+div {
+    width: 600px;
+    height: 600px;
+}
+
+.kotak1 {
+    background-color: aquamarine;
+}
+
+.kotak2 {
+    background-color: pink;
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+
+.kotak3 {
+    background-color: blue;
+}

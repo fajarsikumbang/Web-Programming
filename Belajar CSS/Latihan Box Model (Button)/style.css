@@ -1,0 +1,71 @@
+/*  
+    Buat 9 tombol seperti contoh yang ada di gambar png 
+    Petunjuk : 
+    1. Masing-masing tombol dikasih jarak sekitar 10px 
+    2. Untuk jarak antara tulisan didalam tombol dengan border : 
+       - Tombol kecil : 4px (atas-bawah), 8px (kiri-kanan)
+       - Tombol sedang : 8px, 16px
+       - Tombol besar : 12px, 24px
+    3. Hilangkan border yang ada di sisi tombol agar terlihat
+       lebih menarik
+    3. Ukuran lengkungan di setiap sudut tombol yaitu 8px
+    4. Ketebalan huruf : 700
+    5. Jarak antar huruf: 3px
+    6. Pake huruf besar
+    7. Warna tombol : 
+        - Primary : #7581e6
+        - Secondary : #a2a5ab
+        - Success : #18ce67
+
+    Selamat mengerjakan, semoga paham :) 
+*/
+
+
+button {
+    margin: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+
+button.p1,
+button.se1,
+button.su1 {
+    padding: 4px 8px;
+}
+
+button.p2,
+button.se2,
+button.su2 {
+    padding: 8px 16px;
+}
+
+button.p3,
+button.se3,
+button.su3 {
+    padding: 12px 24px;
+}
+
+button.p1,
+button.p2,
+button.p3 {
+    background-color: #7581e6;
+    color: white;
+}
+
+button.se1,
+button.se2,
+button.se3 {
+    background-color: #a2a5ab;
+    color: white;
+}
+
+button.su1,
+button.su2,
+button.su3 {
+    background-color: #18ce67;
+    color: white;
+}

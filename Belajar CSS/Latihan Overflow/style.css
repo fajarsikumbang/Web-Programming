@@ -1,0 +1,71 @@
+/* 
+    Buatlah tampilan seperti contoh di gambar contoh.png
+    menggunakan properti overflow dan display
+
+    Petunjuk:
+    1. Ukuran div 300px X 300px
+    2. Kasih background, khusus div kedua dan ketiga
+       pake background gambar
+    3. untuk div kedua, ketika di scroll,
+       gambar tidak ikut bergerak
+    4. untuk div ketiga, ketika di scroll,
+       gambar ikut bergerak
+    5. Teksnya rata kiri-kanan supaya rapih
+    6. Warna tulisan sesuaikan dengan background,
+       jangan sampai nyaru
+
+    Total poin untuk latihan ini : 80 poin
+
+    Selamat mengerjakan, semoga paham :)
+*/
+@font-face {
+   font-family: 'Funtime_Italic';
+   src: url(Halloween\ Funtime\ Italic.ttf);
+}
+
+@font-face {
+   font-family: 'Funtime';
+   src: url(Halloween\ Funtime.otf);
+}
+
+body {
+   background-color: yellowgreen;
+   background-size: cover;
+}
+
+.dua,
+.tiga,
+div {
+   font-family: 'Funtime_Italic', Arial, sans-serif;
+}
+
+div {
+   width: 300px;
+   height: 300px;
+   background-image: url(backgroundnihh.jpeg);
+   color: black;
+   overflow: auto;
+   margin: auto;
+   display: inline-block;
+   text-align: justify;
+   margin: auto;
+
+}
+
+.dua,
+.tiga {
+   width: 300px;
+   height: 300px;
+   background-image: url(living-room1.jpg);
+   color: aqua;
+   overflow: auto;
+   margin: auto;
+   display: inline-block;
+   text-align: justify;
+
+}
+
+.tiga {
+   background-attachment: local;
+
+}

@@ -1,0 +1,45 @@
+/* 
+  1. Coba beri background gambar untuk keseluruhan halaman ini, 
+      pastikan gambarnya menutupi seluruh halaman! (30 poin)!
+      (NOTE: jika tulisannya nyaru sama background, sesuaikan warna teksnya
+      supaya gak nyaru)
+  2. Ketika halaman di scroll, gambar tidak ikut bergerak. (10 poin)
+  2. Opsional : menggunakan properti shorthand background (Bonus 20 poin)
+
+  Clue : 
+  1. Font : Arial
+  2. Ukuran font paragraf : 18px
+  3. Jarak antar baris paragraf : 1.5
+*/
+@font-face {
+    font-family: 'Burger';
+    src: url(Autumn\ Wind.otf);
+}
+
+@font-face {
+    font-family: 'Dance';
+    src: url(Halloween\ Funtime\ Italic.ttf);
+}
+
+
+body {
+    background: url(anime2.jpg) no-repeat center/cover fixed;
+    font-family: 'Burger';
+    color: #F2F7A1;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}

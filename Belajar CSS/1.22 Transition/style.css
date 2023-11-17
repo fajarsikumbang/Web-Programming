@@ -1,0 +1,109 @@
+div {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    width: 800px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+/* .container1:hover .bumblebee {
+    background-color: skyblue;
+    margin-left: 700px;
+    transform: scale(2);
+    transition: 2s;
+}
+
+/* .bumblebee {
+    background-color: yellow;
+    transform: 100ms;
+}
+
+.deception {
+    background-color: pink;
+    transition: all 3s;
+}
+
+.container2:hover .deception {
+    margin-left: 700px;
+    transform: rotate(180deg);
+    filter: blur(25px);
+    background-color: #8294C4;
+} */
+
+.thor {
+    background-color: blue;
+    color: white;
+    transition: all 100ms ease;
+}
+
+.container1:hover .thor {
+    background-color: skyblue;
+    margin-left: 700px;
+    transform: rotate(720deg);
+    transition: 2s;
+}
+
+.amerika {
+    background-image: linear-gradient(red, white);
+    color: white;
+    transition: all 3s linear;
+}
+
+.container2:hover .amerika {
+    background-color: blueviolet;
+    margin-left: 700px;
+    transform: skew(180deg);
+    transition: 2s;
+}
+
+.iron {
+    background-color: goldenrod;
+    transition: all 3s ease-in;
+
+}
+
+.container3:hover .iron {
+    transform: translate(700px) scale(0.8);
+}
+
+.widow {
+    background-image: linear-gradient(#777777, #f4f5f6);
+    transition: all 3s ease-out;
+}
+
+.container4:hover .widow {
+    background-image: linear-gradient(#f4f5f6, #777777);
+    transform: rotate(360deg) translate(700px);
+}
+
+.hulk {
+    background-color: green;
+    transition: all 3s ease-in-out;
+}
+
+.container5:hover .hulk {
+    margin-left: 700px;
+    transform: rotateY(720def);
+}
+
+.men {
+    background-color: yellow;
+    transition: all 3s cubic-bezier(1, 0.56, 0, 1.15);
+}
+
+.container6:hover .men {
+    background-color: yellowgreen;
+    transform: rotateX(720);
+    margin-left: 700px;
+}

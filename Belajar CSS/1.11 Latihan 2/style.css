@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=M+PLUS+Rounded+1c:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+img {
+    width: 600px;
+    margin-left: 30%;
+
+}
+
+body {
+    font: 1rem/24px 'Poppins', Arial, sans-serif;
+    background-color: #d3d3d3;
+    color: #303030;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #ebebeb;
+    border-radius: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #FF6969;
+    margin-right: 0.625em;
+    padding: 0.25em;
+}
+
+a:hover {
+    background-color: #FF6969;
+    color: #fff;
+    border-radius: 50%;
+}
+
+header {
+    padding: 2.5rem;
+
+}
+
+
+header .judul {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hero {
+    height: 19.5em;
+    background-image: url(ilmukomputer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    border-top: 5px solid #9D76C1;
+    border-bottom: 5px solid #9D76C1;
+    border-left: 5px solid #9D76C1;
+    border-right: 5px solid #9D76C1;
+}
+
+article {
+    padding: 1.25em;
+}
+
+article h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+article p.metadata {
+    font-size: 0.75rem;
+    margin-top: 0.5em;
+
+}
+
+article .metadata a {
+    text-decoration: none;
+    color: #FF6969;
+}
+
+article .metadata a:hover {
+    background-color: #FF6969;
+    color: #fff;
+}
+
+article p {
+    margin-top: 0.625em;
+    font-size: 0.825rem;
+}
+
+footer {
+    font-size: 1rem;
+    padding-left: 1.85rem;
+    text-align: center;
+    background-color: #303030;
+    color: #fff;
+}

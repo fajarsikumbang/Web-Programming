@@ -1,0 +1,109 @@
+div {
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.kotak1 {
+    background-color: red;
+    color: white;
+}
+
+.kotak2 {
+    background-color: orange;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.kotak3 {
+    background-color: yellow;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: lightcyan;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.box1 {
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: -75px;
+    right: 150px;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: yellow;
+}
+
+.btt {
+    height: 200px;
+    width: 200x;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.btt a {
+    font-size: 64px;
+    line-height: 75px;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+}
+
+.container2 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color: lightcoral;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container2 div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid white;
+}
+
+.px1 {
+    background-color: bisque;
+    position: absolute;
+    z-index: 1;
+    left: 55px;
+}
+
+.px2 {
+    background-color: darkgray;
+    position: absolute;
+    z-index: 2;
+    left: 125px;
+}
+
+.px3 {
+    background-color: lightblue;
+    position: absolute;
+    z-index: 3;
+}

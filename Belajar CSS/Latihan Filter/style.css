@@ -1,0 +1,358 @@
+/* 
+    Buatlah sebuah Card seperti contoh disamping
+    Petunjuk:
+    1. Lebar card 400px, radius lengkung 15px, warna #f5f5f5, diberi padding 25px
+    2. Ukuran gambar 400px x 250px
+    3. Lebar gambar mobil 300px
+    4. Jarak antara gambar mobil dan konten sejauh 40px
+    5. Ukuran huruf pada nama mobil 32px, tebal 700, warna #576cbc
+    6. Ukuran huruf pada tulisan 'Fitur' 24px, warna #19376D
+    7. Jarak antara list fitur dengan harga 32px
+    8. Jarak antar baris pada list fitur sebesar 1.5
+    9. Ukuran huruf pada harga 32px, tebal 700, warna #576CBC
+    10. Untuk tombol : 
+        - Jarak antara tombol dengan paragraf deskripsi sejauh 20px
+        - Ukuran font pada tombol 22px, tebal 700
+        - Lebar tombol 200px
+        - Beri padding 12px (atas-bawah) dan 24px (kiri-kanan);
+        - Warna tombol #576CBC, warna teks pada tombol #f5f5f5
+    11. Ketika mouse berada diatas card, warna card berubah menjadi #DFCCFB
+        dan tulisannya berwarna putih
+    12. Ketika mouse berada diatas tombol, warna tombol berubah menjadi #F6F6F6
+        dan tulisannya berwarna #19376D;
+    13. GUNAKAN PROPERTI POSITION dan Z-INDEX yang sudah dipelajari!
+    14. GUNAKAN PSEUDO-CLASS dan PSEUDO ELEMENT yang sudah dipelajari!
+    15. GUNAKAN GRADIENT, BOX-SHADOW, TRANSFORM, dan TRANSITION yang sudah dipelajari!
+    16. GUNAKAN FILTER dan ANIMATION yang sudah dipelajari!
+    17. Disarankan untuk tidak menggunakan CSS Framework terlebih dahulu
+        seperti Bootstrap CSS, TailwindCSS, dll.
+
+    Nilai untuk latihan ini = 700 poin
+    Selamat Mengerjakan, Semoga paham :)
+*/
+
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: 70px auto;
+}
+
+.card {
+  width: 400px;
+  border-radius: 15px;
+  color: #f5f5f5;
+  padding: 25px;
+}
+ */
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(m2.jpg);
+}
+
+.container {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.card:hover {
+    background-color: #dfccfb;
+    color: white;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid white;
+    margin-left: 20px;
+    position: relative;
+    left: 250px;
+}
+
+.card .img {
+    padding: 40px;
+    padding-top: 16px;
+    text-align: center;
+    position: relative;
+    right: 0px;
+}
+
+.img .k1 {
+    object-fit: cover;
+    width: 400px;
+    height: 250px;
+    z-index: 2px;
+    position: relative;
+    right: 70px;
+    bottom: 50px;
+    border-radius: 15px 15px;
+
+}
+
+.img2 .cars {
+    width: 300px;
+    position: relative;
+    left: 25px;
+    bottom: 150px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576cbc;
+    text-align: center;
+    margin-top: -100px;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+
+}
+
+ul li:first-child {
+    font-size: 32px;
+    font-weight: 600px;
+    line-height: 1.5;
+    color: #19367D;
+}
+
+
+
+.k2 {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576CBC;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 32px;
+}
+
+button {
+    width: 200px;
+    background-color: #54bafc;
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: #19376D;
+    background-color: white;
+} */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(m2.jpg) center/cover no-repeat;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: -140px;
+    background-color: #DFCCFB;
+    border-radius: 50%;
+    z-index: -3;
+    position: relative;
+    transition: transform 0.10s ease-in-out;
+    filter: contrast(200%);
+}
+
+.card:hover .content2 {
+    transform: scale(20);
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 25px;
+    display: flex;
+    filter: blur(200%);
+    flex-direction: column;
+    transform-origin: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: 20px;
+    transition: transform 0.5s ease-in-out, background 0.5s ease-in-out;
+    position: relative;
+}
+
+.card::after {
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(30px);
+    background-color: rgba(50, 50, 50, 0.1);
+    border-radius: 20px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.card:hover {
+    background-color: #dfccfb;
+    cursor: pointer;
+}
+
+.card:hover li {
+    color: #19376d;
+}
+
+.image-container {
+    width: 500px;
+    height: 270px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.image-container img {
+    width: 60%;
+    margin-left: 95px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.card:hover img {
+    animation: Kemana-mana 5s infinite linear alternate;
+}
+
+@keyframes Kemana-mana {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(-180deg) scale(2.5);
+    }
+
+    100% {
+        transform: rotate(-360deg) scale(0.1);
+    }
+}
+
+
+.title h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576cbc;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+
+.title ul {
+    font-size: 24px;
+    color: #19376d;
+    list-style: none;
+}
+
+.title .fitur {
+    font-size: 28px;
+    font-weight: 700;
+    color: #19376D;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title ul li {
+    line-height: 1.5;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.title p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #576cbc;
+}
+
+.title button {
+    font-size: 22px;
+    font-weight: 700;
+    width: 220px;
+    padding: 12px 24px;
+    background-color: #576cbc;
+    color: #f5f5f5;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.title button:hover {
+    background-color: white;
+    color: black;
+}

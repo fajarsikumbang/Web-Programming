@@ -1,0 +1,102 @@
+div {
+    box-sizing: border-box;
+}
+
+.ciek,
+.duo,
+.tigo,
+.ampek,
+.limo {
+    width: 400px;
+    height: 400px;
+    background-color: #358600;
+    margin: auto;
+    font-size: 24px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.ciek {
+    background: linear-gradient(blue green);
+    margin-left: 75%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    border-left: thick dashed red;
+    border-right: thick dotted chocolate;
+    border-top: thick double palevioletred;
+    border-bottom: thick solid palegreen;
+    padding-top: 16%;
+    margin-bottom: 30px;
+}
+
+.duo {
+    background-color: aqua;
+    margin-left: 100%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    border-left: thick dashed red;
+    border-right: thick dotted chocolate;
+    border-top: thick double palevioletred;
+    border-bottom: thick solid palegreen;
+    padding-top: 16%;
+    margin-bottom: 30px;
+}
+
+.tigo {
+    background: linear-gradient(aqua, black);
+    margin-left: 50%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    border-left: thick dashed red;
+    border-right: thick dotted chocolate;
+    border-top: thick double palevioletred;
+    border-bottom: thick solid palegreen;
+    padding-top: 16%;
+    margin-bottom: 30px;
+}
+
+.ampek {
+    background-color: chocolate;
+    margin-left: 75%;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    border-left: thick dashed red;
+    border-right: thick dotted chocolate;
+    border-top: thick double palevioletred;
+    border-bottom: thick solid palegreen;
+    padding-top: 16%;
+    margin-bottom: 30px;
+}
+
+.limo {
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 22px;
+    padding: 30px;
+    border: 5px solid #B0578D;
+    border-radius: 50%;
+    padding-top: 9%;
+}
+
+body {
+    background-image: url(pixel-heart.png);
+}
