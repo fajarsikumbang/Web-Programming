@@ -1,0 +1,92 @@
+[
+    {
+        "no_anggota": "001",
+        "nama": "Haryati",
+        "alamat": "Jl. Ciseke No. 1 Jatinagor Sumedang",
+        "jenis_kelamin": "Perempuan",
+        "tempat_lahir": "Sumedang",
+        "tanggal_lahir": "05 Oct 1970",
+        "pekerjaan": "Petani",
+        "status": "aktif",
+        "simpanan": {
+            "simpanan_wajib": 10000,
+            "simpanan_sukarela": 200000,
+            "jumlah": 210000
+        }
+    },
+    {
+        "no_anggota": "002",
+        "nama": "Suherman Abdullah",
+        "alamat": "Jl. Anggrek No. 35 Sumedang",
+        "jenis_kelamin": "Laki-Laki",
+        "tempat_lahir": "Sumedang",
+        "tanggal_lahir": "14 Jul 1978",
+        "pekerjaan": "Wiraswasta",
+        "status": "non aktif",
+        "simpanan": {
+            "simpanan_wajib": 10000,
+            "simpanan_sukarela": 100000,
+            "jumlah": 110000
+        }
+    },
+    {
+        "no_anggota": "003",
+        "nama": "Kusnadi Abdul",
+        "alamat": "Jl. Pasapen Kulon No. 50 Sumedang",
+        "jenis_kelamin": "Laki-Laki",
+        "tempat_lahir": "Bandung",
+        "tanggal_lahir": "25 Sep 1965",
+        "pekerjaan": "PNS",
+        "status": "aktif",
+        "simpanan": {
+            "simpanan_wajib": 10000,
+            "simpanan_sukarela": 20000,
+            "jumlah": 30000
+        }
+    },
+    {
+        "no_anggota": "004",
+        "nama": "Komarudin",
+        "alamat": "Jl. Pabumangkurat No. 22 Sumedang",
+        "jenis_kelamin": "Laki-Laki",
+        "tempat_lahir": "Majalengka",
+        "tanggal_lahir": "21 Jan 1976",
+        "pekerjaan": "Buruh Tani",
+        "status": "aktif",
+        "simpanan": {
+            "simpanan_wajib": "10000",
+            "simpanan_sukarela": "75000",
+            "jumlah": "85000"
+        }
+    },
+    {
+        "no_anggota": "005",
+        "nama": "Putra Sikumbang",
+        "alamat": "Sawah Lunto",
+        "jenis_kelamin": "Laki-Laki",
+        "tempat_lahir": "Agam",
+        "tanggal_lahir": "27 May 1995",
+        "pekerjaan": "Karyawan Swasta",
+        "status": "aktif",
+        "simpanan": {
+            "simpanan_wajib": "10000",
+            "simpanan_sukarela": "65000",
+            "jumlah": "75000"
+        }
+    },
+    {
+        "no_anggota": "006",
+        "nama": "Fajar Chaniago",
+        "alamat": "Agam",
+        "jenis_kelamin": "Laki-Laki",
+        "tempat_lahir": "Karawang",
+        "tanggal_lahir": "28 May 2001",
+        "pekerjaan": "PNS",
+        "status": "aktif",
+        "simpanan": {
+            "simpanan_wajib": "10000",
+            "simpanan_sukarela": "55000",
+            "jumlah": "65000"
+        }
+    }
+]

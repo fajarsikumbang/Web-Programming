@@ -1,0 +1,65 @@
+[
+    {
+        "id_barang": "B01",
+        "nama_barang": "Panel Kecil",
+        "jenis": "Panel 100x90",
+        "hrg_beli": "65000",
+        "hrg_jual": "130000",
+        "stok": "4",
+        "subtotal": "520000"
+    },
+    {
+        "id_barang": "B02",
+        "nama_barang": "Panel Sedang",
+        "jenis": "Panel 180x90",
+        "hrg_beli": "90000",
+        "hrg_jual": "180000",
+        "stok": "3",
+        "subtotal": "540000"
+    },
+    {
+        "id_barang": "B03",
+        "nama_barang": "Panel Besar",
+        "jenis": "Panel 240x100",
+        "hrg_beli": "150000",
+        "hrg_jual": "300000",
+        "stok": "5",
+        "subtotal": "1500000"
+    },
+    {
+        "id_barang": "B04",
+        "nama_barang": "GC Hias Lilitan Naga",
+        "jenis": "Guci Hias",
+        "hrg_beli": "100000",
+        "hrg_jual": "200000",
+        "stok": "5",
+        "subtotal": "1000000"
+    },
+    {
+        "id_barang": "B05",
+        "nama_barang": "GT Bibir Jumbo",
+        "jenis": "Gentong",
+        "hrg_beli": "150000",
+        "hrg_jual": "200000",
+        "stok": "7",
+        "subtotal": "1400000"
+    },
+    {
+        "id_barang": "B06",
+        "nama_barang": "VAS BUNGA",
+        "jenis": "GUCI",
+        "hrg_beli": "54000",
+        "hrg_jual": "80000",
+        "stok": "10",
+        "subtotal": "800000"
+    },
+    {
+        "id_barang": "B07",
+        "nama_barang": "Semen Padang",
+        "jenis": "Bangunan",
+        "hrg_beli": "69000",
+        "hrg_jual": "245000",
+        "stok": "17",
+        "subtotal": "5778899"
+    }
+]

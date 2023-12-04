@@ -1,0 +1,95 @@
+body,
+h1,
+h2,
+p,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formlogin {
+    background-image: url(bg.png);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.formlogin:hover {
+    transform: translateY(10px);
+}
+
+
+.foto img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.formlogin h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.formlogin form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: palevioletred;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: yellowgreen;
+}
+
+.lupa {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.lupa a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 400ms ease-in-out;
+}
+
+.lupa a:hover {
+    background-color: palevioletred;
+    border-radius: 5%;
+    transform: rotate();
+}
+
+@media (max-width: 600px) {
+    .formlogin {
+        width: 80%;
+    }
+}

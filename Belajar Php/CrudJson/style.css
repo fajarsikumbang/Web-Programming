@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* index.php styling(Tabel Styling) */
+h2{
+    text-align: center;
+    display: block;
+    font-size: 3rem;
+    margin: 20px auto;
+}
+
+a.tambah {
+    position: relative;
+    left: 12em;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(0, 55, 255);
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+    transition: all 500ms ease;
+}
+
+a.tambah:hover {
+    background-color: rgb(0, 0, 170);
+}
+
+table {
+    margin: 10px auto;
+    width: 70%;
+    border: 3px solid black;
+}
+
+table th {
+    margin: 0;
+    padding: 2px 10px;
+    border: 1px solid black;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+th a{
+    color: white;
+    text-decoration: none;
+}
+
+th:first-child {
+    width: 20px;
+}
+
+th:last-child {
+    width: 100px;
+}
+
+table td{
+    padding: 5px 2px;
+    border: 1px solid black;
+}
+
+td:first-child {
+    text-align: center;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+    transition: all 400ms ease-in-out;
+    padding: 3px;
+}
+td a:first-child {
+    background-color: rgb(0, 246, 0);
+}
+td a:last-child {
+    background-color:red;
+}
+td a:first-child:hover {
+    background-color: green;
+}
+td a:last-child:hover {
+    background-color: brown;
+}
+
+/* tambah.php styling */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+}
+
+form input{
+    height: 1.12rem;
+}
+
+form button {
+    width: 12rem;
+    height: 2em;
+    margin: auto;
+    border: none;
+    background-color: rgb(70, 70, 255);
+    color: white;
+}
+form .reset {
+    width: 12rem;
+    height: 2em;
+    margin: 5px auto;
+    border: none;
+    
+}
+
+form button:hover {
+    background-color: blue;
+}
+form .reset:hover {
+    background-color: red;
+    color: white;
+}
+
+form a {
+    text-align: center;
+    position: relative;
+    top: 12px;
+}
+
+table tr:hover {
+    background-color: lightgrey;
+}
+
+table tr:nth-child(odd) {
+    background-color: aquamarine;
+}
+table tr:nth-child(odd):hover {
+    background-color: lightseagreen;
+}
+

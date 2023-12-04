@@ -1,0 +1,50 @@
+[
+    {
+        "nim": "10115425",
+        "nama": "Alwan Hibatullah",
+        "fakultas": "Teknik dan Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Rawagabus, Johar",
+        "ipk": "2.77"
+    },
+    {
+        "nim": "224162552012204",
+        "nama": "Akbar Rahmat Konsignee",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Tokyo, Cikampek",
+        "ipk": "3.6"
+    },
+    {
+        "nim": "22416255201165",
+        "nama": "Bisma Chanda G",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Isekai, Afterlife",
+        "ipk": "3.45"
+    },
+    {
+        "nim": "22416255201138",
+        "nama": "Fajar Maulana Sikumbang",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Berlin, Telagasari",
+        "ipk": "3.74"
+    },
+    {
+        "nim": "22416255201166",
+        "nama": "Mochamad Atilla Rahmat Saleh",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "London, Majalaya",
+        "ipk": "3.7"
+    },
+    {
+        "nim": "22416255201152",
+        "nama": "Putra Pamungkas Bambang",
+        "fakultas": "Ilmu Komputer",
+        "prodi": "Teknik Informatika",
+        "alamat": "Stockholm, Purwasari",
+        "ipk": "3.45"
+    }
+]

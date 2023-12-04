@@ -1,0 +1,23 @@
+[
+    {
+        "nim": "2143124234",
+        "nama": "Alvin",
+        "alamat": "Jakarta",
+        "prodi": "Kimia",
+        "fakultas": "Kedokteran"
+    },
+    {
+        "nim": "4325245435",
+        "nama": "Absalone",
+        "alamat": "Jakarta",
+        "prodi": "Kimia",
+        "fakultas": "Fisika"
+    },
+    {
+        "nim": "43263462345",
+        "nama": "Sebastian",
+        "alamat": "Mordenbrough",
+        "prodi": "Pascal",
+        "fakultas": "Physic Master"
+    }
+]
